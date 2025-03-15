@@ -1,6 +1,6 @@
 ## steps to run
 ### 1.Clone this repo 
-check top right side , code -> clone -> copy the code and paste it on terminal
+check top right side , code -> clone -> copy the url and paste with git clone <copied_url>
 ### 2.create virtual environment
 ```bash
 python3 -m venv .venv # on linux / mac
