@@ -1,7 +1,19 @@
-## steps to run 
+## steps to run
+### 1.Clone this repo 
+check top right side , code -> clone -> copy the code and paste it on terminal
+### 2.create virtual environment
 ```bash
 python3 -m venv .venv # on linux / mac
-source .venv/bin/activate
-pip install -r requirements.txt
 ```
-
+### 3. activate virtual environment
+```bash
+source .venv/bin/activate
+```
+### 4. install dependencies
+```bash
+pip install -r requirements.tx
+```
+### 5. run 
+```bash
+uvicorn main:app --reload
+```
